@@ -1,0 +1,3 @@
+[submodule "themes/particlexf"]
+	path = themes/particlexf
+	url = https://github.com/FloranceYeh/hexo-theme-particlexf
