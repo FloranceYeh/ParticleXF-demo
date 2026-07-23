@@ -116,7 +116,7 @@ search:
 
 # Seed changer
 seedChanger:
-    enable: false
+    enable: true
 
 # giscus
 # https://github.com/giscus/giscus
