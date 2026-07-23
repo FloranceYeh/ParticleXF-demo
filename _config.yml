@@ -4,10 +4,10 @@
 
 # Site
 title: ParticleXF
-subtitle: ''
+subtitle: 'Preview DEMO'
 description: ''
 keywords:
-author: John Doe
+author: Florance
 language: en
 timezone: ''
 
@@ -43,7 +43,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter:
 highlight:
   line_number: true
   auto_detect: false

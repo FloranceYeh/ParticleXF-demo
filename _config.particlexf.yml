@@ -44,13 +44,17 @@ menu:
         name: tags
         theme: solid
         link: /tags
+    Links:
+        name: link
+        theme: solid
+        link: /links
 
 # Side info card
 card:
     enable: true
     description: |
-        Your name here.
-        Your blog subtitle.
+        DEMO for ParticleXF
+        Tutorial for Hexo
     iconLinks:
         Github:
             name: github
@@ -66,7 +70,7 @@ card:
 
 # Footer info
 footer:
-    since: 2025
+    since: 2026
     ICP:
         enable: false
         code:
