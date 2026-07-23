@@ -61,7 +61,7 @@ description: |
 在 `front-matter` 中添加 `toc` 和 `comments` 字段，用于设置文章是否显示目录和评论。
 
 {% note tip 提示 %}
-这两个字段在所有 `.md` 文件中都是可用的。
+`comments` 字段在 about 页面也是可用的。
 {% endnote %}
 
 ```yaml
@@ -69,3 +69,4 @@ description: |
 toc: false
 comments: false
 ---
+```
