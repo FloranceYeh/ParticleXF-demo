@@ -13,7 +13,7 @@ categories:
 `Part I`
 {% endnote  %}
 
-本篇将要介绍如何安装和初始化HEXO博客
+本文将要介绍如何安装和初始化HEXO博客
 
 <!-- more -->
 
