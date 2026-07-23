@@ -59,11 +59,11 @@ card:
         Github:
             name: github
             theme: brands
-            link: https://github.com/YOUR_GITHUB_USERNAME
+            link: https://github.com/FloranceYeh/hexo-theme-particlexf
         Email:
             name: envelope
             theme: solid
-            link: mailto:you@example.com
+            link: mailto:Florance_Sunrise@outlook.com
     friendLinks:
         Home: /
         About: /about

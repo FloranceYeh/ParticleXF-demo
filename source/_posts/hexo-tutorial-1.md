@@ -1,5 +1,5 @@
 ---
-title: HEXO-教程-1
+title: HEXO-教程-1|安装与使用
 date: 2026-07-23 20:30:30
 tags:
     - hexo
@@ -10,7 +10,10 @@ categories:
 {% note info  %}
 教你从零开始搭建个人博客
 ----以HEXO的Particlexf主题为例
+`Part I`
 {% endnote  %}
+
+本篇将要介绍如何安装和初始化HEXO博客
 
 <!-- more -->
 
@@ -65,6 +68,12 @@ npm install
 `hexo new <filename>`：创建新文章，`<filename>`是文章的文件名。
 `hexo new page <pagename>`：创建新页面，`<pagename>`是页面的文件名。
 
+# 配置 `_config.yml`
+
+在站点根目录下，有一个名为 `_config.yml` 的文件，这是Hexo的主配置文件。你可以在这里进行一些基本的配置，比如站点标题、描述、作者等。
+把 `title`、`subtitle`、`description`、`author`、`language`、`timezone` 等字段修改为你自己的信息。
+这样，你的博客就有了自己的个性化信息，才算是真正属于你自己的博客。
+
 # 结语
 
 至此，你已经成功安装了Hexo，并了解了一些常用的命令。接下来，你可以选择一个喜欢的主题，安装并配置它，然后开始撰写你的博客文章。祝你在搭建个人博客的过程中玩得开心！
@@ -73,4 +82,4 @@ npm install
 快速、简洁且高效的博客框架
 {% endnote  %}
 
-下一篇教程：[HEXO-教程-2](https://particlexf-demo.netlify.app/2026/07/23/hexo-tutorial-2/)
+下一篇教程：[HEXO-教程-2|主题与页面](/2026/07/23/hexo-tutorial-2/)
