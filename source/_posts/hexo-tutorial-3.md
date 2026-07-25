@@ -49,6 +49,10 @@ tags:
 
 由于 Markdown 是非常基础的知识，这里不再赘述。你可以上网搜索相关的 Markdown 教程。
 
+{% note tip Tip %}
+HEXO 的 Markdown 是支持内嵌 HTML 语法的，这意味着你可以在 Markdown 中直接使用 HTML 标签。
+{% endnote  %}
+
 # Tag 与 Category
 
 在文章的 front-matter 中添加 `tags` 和 `categories` 字段，用于设置文章的标签和分类。
@@ -178,3 +182,4 @@ Note 提示框是 ParticleXF 主题提供的一个特色功能，可以在文章
 
 
 上一篇教程：[HEXO-教程-2|主题与页面](/2026/07/23/hexo-tutorial-2/)
+下一篇教程：[HEXO-教程-4|部署](/2026/07/25/hexo-tutorial-4/)
