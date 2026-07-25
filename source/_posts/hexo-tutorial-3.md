@@ -35,15 +35,10 @@ $ hexo new "My New Post"
 
 此时，`source/_posts/` 目录下会生成一个名为 `my-new-post.md` 的文件。
 
-该文件的 front-matter 中默认包含了文章的标题、创建日期，和一个空的 tags 字段，你可以根据需要进行修改。
-
-```yaml
----
-title: My New Post
-date: 2026-07-23 22:32:55
-tags:
----
-```
+{% note tip Tip %}
+命令生成的文件是以 `scaffolds` 模板生成的，里面包含了文章的 front-matter 和一些默认内容。
+如果你想自定义文章模板，可以在博客目录下的 `scaffolds` 目录中找到 `post.md` 文件，并进行修改。
+{% endnote %}
 
 # Markdown
 

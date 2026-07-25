@@ -30,12 +30,12 @@ git clone https://github.com/FloranceYeh/hexo-theme-particlexf themes/particlexf
 ```
 
 {% note warning 注意 %}
-这个办法在某些部署环境下可能会引发子模块问题，解决方法有两种：
+`clone` 的仓库会残留 `./git` 文件夹，可能会引发一些问题，解决方法有两种：
 1. 将 `themes/particlexf` 目录下的隐藏的 `.git` 文件夹删除。
 2. 使用方式二安装主题。
 {% endnote  %}
 
-## 方式二：作为子模块（推荐）
+## 方式二：作为子模块
 
 ```bash
 cd your-hexo-site
