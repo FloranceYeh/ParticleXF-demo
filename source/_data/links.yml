@@ -1,6 +1,11 @@
-Friends:
-    Florance:
-        name: Florance
-        url: https://Florance.top
+Auther's:
+    Auther's Blog:
+        name: Florance's Blog
+        url: https://florance.top
         ava: /images/avatar.jpg
-        des: It's Florance!
+        des: It's Florance's Blog!
+    Auther's GitHub:
+        name: Florance's GitHub
+        url: https://github.com/FloranceYeh
+        ava: /images/avatar.jpg
+        des: It's Florance's GitHub!
