@@ -66,6 +66,7 @@ theme: particlexf
 {% note tip 复制一份主题配置 %}
 将主题的 `_config.yml` 文件复制到站点根目录下，并改名为 `_config.<themename>.yml`
 \<themename\> 是你的主题目录名称
+这样方便管理配置文件，升级主题时也不会覆盖你的配置。
 {% endnote  %}
 
 ## ParticleXF 主题配置
