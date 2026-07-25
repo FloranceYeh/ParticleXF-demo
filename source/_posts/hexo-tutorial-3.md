@@ -98,6 +98,16 @@ description: |
 
 `<!-- more -->` 可以让文章在首页只显示 `<!-- more -->` 之前的内容，`<!-- more -->` 之后的内容将会在文章详情页显示。
 
+# 文章置顶
+
+在 `front-matter` 中添加 `pinned` 字段，值为整数，用于设置文章的置顶顺序，值越大，文章越靠前。
+
+```yaml
+---
+pinned: 1
+---
+```
+
 # 评论与TOC
 
 在 ParticleXF 主题中，文章页最右侧有一个目录区域，这就是 `TOC(Table of Contents)`。
