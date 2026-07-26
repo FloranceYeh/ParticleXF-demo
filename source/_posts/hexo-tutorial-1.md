@@ -5,6 +5,7 @@ tags:
     - hexo
 categories:
     - Tutorial
+pinned: 5
 ---
 
 {% note info  %}
