@@ -35,6 +35,10 @@ ParticleXF 的模板大多是 EJS 文件，比如 `themes/particlexf/layout/layo
 
 EJS 可以理解成“带有 JavaScript 逻辑的 HTML 模板”。常见写法有三种：
 
+{% note warning 注意 %}
+由于 `highlight.js` 不支持 EJS 语法高亮，所以这里用 `js` 来标记代码块。
+{% endnote %}
+
 ```ejs
 <%= title %>
 <%- partial("menu") %>
@@ -73,7 +77,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 如果你希望它在所有页面都生效，可以在 `themes/particlexf/layout/layout.ejs` 里加一行：
 
-```ejs
+```js
 <script src="<%- url_for("/js/custom.js") %>"></script>
 ```
 
@@ -83,7 +87,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 你也可以在 EJS 中写条件判断，只让脚本在某些页面加载：
 
-```ejs
+```js
 <% if (is_post()) { %>
 <script src="<%- url_for("/js/custom-post.js") %>"></script>
 <% } %>
@@ -115,7 +119,7 @@ ParticleXF 的主样式文件在 `themes/particlexf/source/css/main.css`。
 
 然后在 `layout.ejs` 或 `import.ejs` 里引用它：
 
-```ejs
+```js
 <link rel="stylesheet" href="<%- url_for("/css/custom.css") %>" />
 ```
 
@@ -151,7 +155,7 @@ ParticleXF 的模板都在 `themes/particlexf/layout/` 下。
 
 ParticleXF 已经把很多区域拆成了 partial，比如：
 
-```ejs
+```js
 <%- partial("menu") %>
 <%- partial("footer") %>
 ```
@@ -162,7 +166,7 @@ ParticleXF 已经把很多区域拆成了 partial，比如：
 
 假设你想在文章页标题下方显示一段自定义提示，可以在对应模板里写：
 
-```ejs
+```js
 <% if (is_post()) { %>
     <div class="post-tip">这是一段自定义提示</div>
 <% } %>

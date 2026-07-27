@@ -335,10 +335,3 @@ hexo clean && hexo server
 ## 许可证
 
 MIT。
-
-## 致谢
-
-- [hexo-theme-particlex](https://github.com/theme-particlex/hexo-theme-particlex)
-- [Font Awesome](https://fontawesome.com)
-- [Highlight.js](https://highlightjs.org)
-- [Waline](https://github.com/walinejs/waline)

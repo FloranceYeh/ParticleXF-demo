@@ -335,10 +335,3 @@ Edit theme files and refresh the browser. After config changes, run a clean befo
 ## License
 
 MIT.
-
-## Credits
-
-- [hexo-theme-particlex](https://github.com/theme-particlex/hexo-theme-particlex)
-- [Font Awesome](https://fontawesome.com)
-- [Highlight.js](https://highlightjs.org)
-- [Waline](https://github.com/walinejs/waline)
