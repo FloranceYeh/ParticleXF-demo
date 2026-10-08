@@ -48,29 +48,17 @@ language: zh-CN
 
 下面是一段实际渲染的示例：
 
-{% chat wechat title="项目群" subtitle="发布讨论" logo="/images/ParticleXF.png" %}
-A:John,/images/avatar.jpg
+{% chat wechat title="项目群" subtitle="发布讨论"%}
+me:Florance,/images/avatar.jpg
 A|10:24|这次更新的聊天标签可以显示图片吗？
 me|10:25|可以，还能点击顶部折叠聊天记录。
-me|10:26|[image:/images/ParticleXF.png ParticleXF]
+me|10:26|[image:/images/background.jpg background]
 {% endchat %}
 
-发言人通过 `A:John,/images/avatar.jpg` 定义一次，后面的消息直接写 `A` 即可复用姓名和头像。头像及消息图片都支持站点 `/images/` 路径，也支持完整的图片 URL。图片消息可写为 `[image:地址 说明]`，或使用 Markdown 图片语法。
+发言人通过 `A:John,/images/avatar.jpg` 定义一次，后面的消息直接写 `A` 即可复用姓名和头像。头像及消息图片都支持本地路径，也支持完整的图片 URL。图片消息可写为 `[image:地址 说明]`，或使用 Markdown 图片语法。
 
 顶部图标默认使用平台 Logo；添加 `logo="/images/ParticleXF.png"` 可以改用图片。聊天记录默认展开，设置 `expanded=false` 或添加 `collapsed` 即可默认收起，读者仍可点击顶部栏切换。聊天背景、文字和气泡会跟随主题的亮暗模式变化。
 
 ## 资源与代码整理
 
-Font Awesome 的样式资源改从 cdnjs 加载，避开原字体资源的跨域问题。页面加载遮罩改在 `DOMContentLoaded` 后关闭，减少等待其他外部资源时的停留。`chat.js`、`note.js`、`tabs.js`、`video.js` 的代码格式和顶部说明也已统一，并补齐了中英文 README 中的配置示例。
-
-## 本次提交
-
-| 提交 | 日期 | 主要内容 |
-| --- | --- | --- |
-| `e0abd1d` | 2026-10-05 | 首页文章卡片、标题与摘要样式自定义 |
-| `aa3982a` | 2026-10-05 | 首页“阅读全文”按钮样式自定义 |
-| `e03cf98` | 2026-10-05 | 主题界面国际化 |
-| `5fec446` | 2026-10-08 | 模拟聊天记录标签与相关样式 |
-| `d235dfe` | 2026-10-08 | 外挂标签格式统一、默认文案本地化 |
-
-以上范围不包含起点提交 `2c8e193` 本身。完整配置和标签语法可查阅主题的中英文 README。
+页面加载遮罩改在 `DOMContentLoaded` 后关闭，减少等待其他外部资源时的停留。`chat.js`、`note.js`、`tabs.js`、`video.js` 的代码格式和顶部说明也已统一，并补齐了中英文 README 中的配置示例。
